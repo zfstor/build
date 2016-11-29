@@ -158,6 +158,9 @@ release-push: update-push
 		${BUILD_TOOLS}/post-to-download.py; \
 	fi
 
+download-push:
+	@${BUILD_TOOLS}/post-to-download.py
+
 update-push:
 	@${BUILD_TOOLS}/post-to-upgrade.py
 
