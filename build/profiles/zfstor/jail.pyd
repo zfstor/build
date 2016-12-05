@@ -37,7 +37,7 @@ copy += {
 
 copy += {
     "source": "${BE_ROOT}/freenas/docs/api",
-    "dest": "/usr/freenas_docs/api"
+    "dest": "/usr/zfstor_docs/api"
 }
 
 copy += {
