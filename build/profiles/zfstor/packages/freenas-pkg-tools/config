@@ -3,11 +3,11 @@
 name = freenas-pkg-tools
 comment = "FreeNAS Package Tools"
 desc = "FreeNAS Package tools"
-www = http://www.freenas.org/
+www = http://www.zfstor.org/
 origin = freenas/pkg-tools
 maintainer = dev@ixsystems.com
 prefix = /
-arch = freebsd:10:x86:64
+arch = freebsd:12:x86:64
 licenselogic = or
 licenses = [BSD]
 

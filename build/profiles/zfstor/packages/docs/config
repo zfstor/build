@@ -6,7 +6,7 @@ www = http://www.freenas.org/
 origin = freenas/os
 maintainer = dev@ixsystems.com
 prefix = /
-arch = freebsd:9:x86:64
+arch = freebsd:12:x86:64
 licenselogic = or
 licenses = [BSD, MIT, GPL]
 
