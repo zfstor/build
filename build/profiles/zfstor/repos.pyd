@@ -31,9 +31,9 @@ repos += {
 }
 
 repos += {
-    "name": "freenas-docs",
-    "path": "freenas-docs",
-    "url": "http://github.com/freenas/freenas-docs.git",
+    "name": "zfstor-docs",
+    "path": "zfstor-docs",
+    "url": "http://github.com/zfstor/docs.git",
     "branch": "master"
 }
 
