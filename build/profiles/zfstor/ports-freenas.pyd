@@ -84,7 +84,7 @@ ports += {
 }
 
 ports += {
-    "name": "freenas/freenas-docs",
+    "name": "zfstor/zfstor-docs",
     "options": [
         "PRODUCT=${PRODUCT}",
         "PRODUCT_VERSION=${VERSION}",
