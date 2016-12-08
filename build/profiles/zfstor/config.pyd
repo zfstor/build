@@ -28,9 +28,9 @@ include("ports.pyd")
 include("packages.pyd")
 
 profile = {
-    "name": "freenas9",
-    "description": "FreeNAS 9.3 with FreeBSD 10 kernel",
-    "owner": "dev@ixsystems.com",
+    "name": "zfstor",
+    "description": "ZFStor with FreeBSD 12 kernel",
+    "owner": "zfstor@zfstor.org",
     "status": "active"
 }
 
@@ -130,7 +130,7 @@ make_conf_build = {
 # Packages configuration
 make_conf_pkg = {
     "DEFAULT_VERSIONS":             "python=2.7",
-    "OPTIONS_UNSET":                "DOCS",
+    "OPTIONS_UNSET":                "DOCS X11 JAVA",
     "WANT_OPENLDAP_SASL":           "yes",
     "USE_PACKAGE_DEPENDS":          "yes",
     "BATCH":                        "yes",
